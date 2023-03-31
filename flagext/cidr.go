@@ -9,7 +9,7 @@ import (
 
 // CIDR is a network CIDR.
 type CIDR struct {
-	Value *net.IPNet
+	Value *net.IPNet `yaml:"value" json:"value"`
 }
 
 // String implements flag.Value.
